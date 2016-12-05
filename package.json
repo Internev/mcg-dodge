@@ -1,0 +1,32 @@
+{
+  "name": "mcg-dodge",
+  "version": "1.0.0",
+  "description": "Dodging MCG traffic",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "build": "browserify ./client/app.js -o ./client/bundle.js",
+    "watch": "watchify ./client/app.js -o ./client/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Internev/mcg-dodge.git"
+  },
+  "author": "Neville Challinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Internev/mcg-dodge/issues"
+  },
+  "homepage": "https://github.com/Internev/mcg-dodge#readme",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "watchify": "^3.7.0"
+  }
+}
